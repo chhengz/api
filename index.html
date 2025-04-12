@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple File Browser</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    a { display: block; margin: 5px 0; text-decoration: none; color: blue; }
+    .breadcrumb { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+
+  <h2>📂 Simple File Browser</h2>
+  <div class="breadcrumb" id="breadcrumb"></div>
+  <div id="file-list">Loading...</div>
+
+  <script>
+    const baseURL = 'https://chhengz.github.io/api/v1/';
+    let currentPath = '';
+
+    function fetchDirectory(path) {
+      const url = baseURL + path + (path.endsWith('/') || path === '' ? '' : '/') + 'index.json';
+      document.getElementById('file-list').textContent = 'Loading...';
+
+      fetch(url)
+        .then(res => {
+          if (!res.ok) throw new Error('Failed to fetch: ' + url);
+          return res.json();
+        })
+        .then(data => renderList(data, path))
+        .catch(err => {
+          document.getElementById('file-list').textContent = 'Error loading directory.';
+          console.error(err);
+        });
+    }
+
+    function renderList(data, path) {
+      currentPath = path;
+      const fileList = document.getElementById('file-list');
+      fileList.innerHTML = '';
+
+      updateBreadcrumb(path);
+
+      if (data.folders) {
+        data.folders.forEach(folder => {
+          const folderLink = document.createElement('a');
+          folderLink.href = '#';
+          folderLink.textContent = '📁 ' + folder;
+          folderLink.onclick = () => fetchDirectory(path + (path && !path.endsWith('/') ? '/' : '') + folder);
+          fileList.appendChild(folderLink);
+        });
+      }
+
+      if (data.files) {
+        data.files.forEach(file => {
+          const fileLink = document.createElement('a');
+          fileLink.href = baseURL + (path ? path + '/' : '') + file;
+          fileLink.textContent = '📄 ' + file;
+          fileLink.target = '_blank';
+          fileList.appendChild(fileLink);
+        });
+      }
+    }
+
+    function updateBreadcrumb(path) {
+      const breadcrumb = document.getElementById('breadcrumb');
+      breadcrumb.innerHTML = '';
+      const parts = path.split('/').filter(Boolean);
+      let pathSoFar = '';
+
+      const rootLink = document.createElement('a');
+      rootLink.href = '#';
+      rootLink.textContent = 'Home';
+      rootLink.onclick = () => fetchDirectory('');
+      breadcrumb.appendChild(rootLink);
+
+      parts.forEach((part, i) => {
+        breadcrumb.innerHTML += ' / ';
+        const partLink = document.createElement('a');
+        pathSoFar += (i > 0 ? '/' : '') + part;
+        partLink.href = '#';
+        partLink.textContent = part;
+        partLink.onclick = () => fetchDirectory(pathSoFar);
+        breadcrumb.appendChild(partLink);
+      });
+    }
+
+    // Load root directory on page load
+    fetchDirectory('');
+  </script>
+
+</body>
+</html>
