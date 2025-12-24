@@ -1,0 +1,50 @@
+[
+  {
+    id: 1,
+    title: "TryHackMe Profile",
+    platform: "TryHackMe",
+    categories: ["Security", "Networking", "CTF"],
+    image: "https://tryhackme-badges.s3.amazonaws.com/vangsokchheng.png",
+    link: "https://tryhackme.com",
+  },
+  {
+    id: 2,
+    title: "Credly Badges",
+    platform: "Credly",
+    categories: ["Cloud", "Programming", "Platforms"],
+    image: "https://images.g2crowd.com/uploads/product/image/a76b7fcf45e66efc2d8a67a18963ba1b/credly.png",
+    link: "https://www.credly.com/users/sokchheng-vang/badges",
+  },
+  {
+    id: 3,
+    title: "AWS Academy Cloud Foundations",
+    platform: "AWS Academy",
+    categories: ["Cloud"],
+    image: "../images/certifications/AWS Academy Cloud Foundations.png",
+    link: "",
+  },
+  {
+    id: 4,
+    title: "HCIA-Data Center V1.5",
+    platform: "Huawei",
+    categories: ["Cloud"],
+    image: "../images/certifications/HCIA-Data Center V1.5 Course.png",
+    link: "",
+  },
+  {
+    id: 5,
+    title: "HCIA-Security V4.0",
+    platform: "Huawei",
+    categories: ["Cloud", "Security"],
+    image: "../images/certifications/HCIA-Security V4.0 Course.png",
+    link: "",
+  },
+  {
+    id: 6,
+    title: "HCIA-WLAN V3.0",
+    platform: "Huawei",
+    categories: ["Cloud", "Networking"],
+    image: "../images/certifications/HCIA-WLAN V3.0 Course.png",
+    link: "",
+  }
+];
