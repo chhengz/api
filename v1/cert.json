@@ -20,7 +20,7 @@
     "title": "AWS Academy Cloud Foundations",
     "platform": "AWS Academy",
     "categories": ["Cloud"],
-    "image": "/images/certifications/AWS-Academy-Cloud-Foundations.png",
+    "image": "https://raw.githubusercontent.com/chhengz/api/refs/heads/main/v1/images/certifications/AWS-Academy-Cloud-Foundations.png",
     "link": ""
   },
   {
@@ -28,7 +28,7 @@
     "title": "HCIA-Data Center V1.5",
     "platform": "Huawei",
     "categories": ["Cloud"],
-    "image": "/images/certifications/HCIA-Data-Center-V1.5-Course.png",
+    "image": "https://raw.githubusercontent.com/chhengz/api/refs/heads/main/v1/images/certifications/HCIA-Data-Center-V1.5-Course.png",
     "link": ""
   },
   {
@@ -36,7 +36,7 @@
     "title": "HCIA-Security V4.0",
     "platform": "Huawei",
     "categories": ["Cloud", "Security"],
-    "image": "/images/certifications/HCIA-Security-V4.0-Course.png",
+    "image": "https://raw.githubusercontent.com/chhengz/api/refs/heads/main/v1/images/certifications/HCIA-Security-V4.0-Course.png",
     "link": ""
   },
   {
@@ -44,7 +44,7 @@
     "title": "HCIA-WLAN V3.0",
     "platform": "Huawei",
     "categories": ["Cloud", "Networking"],
-    "image": "/images/certifications/HCIA-WLAN-V3.0-Course.png",
+    "image": "https://raw.githubusercontent.com/chhengz/api/refs/heads/main/v1/images/certifications/HCIA-WLAN-V3.0-Course.png",
     "link": ""
   }
 ]
