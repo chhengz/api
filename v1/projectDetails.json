@@ -8,6 +8,7 @@
       "description_details": "This project is a library management system developed in C++ using Object-Oriented Programming (OOP) principles. It allows users to manage books, members, and borrowing transactions efficiently. The system provides features such as adding new books, registering members, issuing and returning books, and generating reports. The project is designed to enhance the learning experience of students by applying OOP concepts in a practical application.",
       "releaseDate": "October 16, 2023",
       "author": "team3",
+      "technologies": ["CPP", "C", "CMAKE"],
       "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp"
     },
      {
@@ -18,6 +19,7 @@
       "description_details": "This project is a personal portfolio website designed to showcase my skills, projects, and experiences. It features a clean and modern design, with sections for about me, projects, skills, and contact information. The website is built using HTML, CSS, and JavaScript, and is responsive to ensure it looks great on all devices. The goal of this project is to create an online presence that highlights my work and allows potential employers or collaborators to learn more about me.",
       "releaseDate": "October 10, 2024",
       "author": "sokchheng",
+       "technologies": ["React", "Node.js", "Tailwindcss", "Reduxjs/toolkit"],
       "link_url": "https://sokchheng.site/"
     }
   ]
