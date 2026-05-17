@@ -1,11 +1,10 @@
 {
-  "projectData": [
+  "data": [
     {
       "id": 1,
       "img": "https://hackr.io/blog/cpp-projects/thumbnail/large",
       "title": "Library Management System, C++, OOP",
       "description": "school projects assignment",
-      "description_details": "",
       "releaseDate": "October 16, 2023",
       "author": "team3",
       "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp"
@@ -15,7 +14,6 @@
       "img": "https://github.com/chhengz/library-app-assignment-c-cpp",
       "title": "My Personal Website",
       "description": "a partfolio website",
-      "description_details": "",
       "releaseDate": "October 10, 2024",
       "author": "sokchheng",
       "link_url": "https://sokchheng.site/"
