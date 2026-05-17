@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "img": "https://hackr.io/blog/cpp-projects/thumbnail/large",
+      "title": "Library Management System, C++, OOP",
+      "description": "school projects assignment",
+      "description_details": "This project is a library management system developed in C++ using Object-Oriented Programming (OOP) principles. It allows users to manage books, members, and borrowing transactions efficiently. The system provides features such as adding new books, registering members, issuing and returning books, and generating reports. The project is designed to enhance the learning experience of students by applying OOP concepts in a practical application.",
+      "releaseDate": "October 16, 2023",
+      "author": "team3",
+      "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp"
+    },
+     {
+      "id": 2,
+      "img": "https://s3.amazonaws.com/angularminds.com/new-blog-images/7-top-reactjs-features-which-makes-it-best-for-development.jpg",
+      "title": "My Personal Website",
+      "description": "a partfolio website",
+      "description_details": "This project is a personal portfolio website designed to showcase my skills, projects, and experiences. It features a clean and modern design, with sections for about me, projects, skills, and contact information. The website is built using HTML, CSS, and JavaScript, and is responsive to ensure it looks great on all devices. The goal of this project is to create an online presence that highlights my work and allows potential employers or collaborators to learn more about me.",
+      "releaseDate": "October 10, 2024",
+      "author": "sokchheng",
+      "link_url": "https://sokchheng.site/"
+    }
+  ]
+}
