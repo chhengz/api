@@ -9,7 +9,8 @@
       "releaseDate": "October 16, 2023",
       "author": "team3",
       "technologies": ["CPP", "C", "CMAKE"],
-      "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp"
+      "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp",
+       "readme_url": "https://raw.githubusercontent.com/chhengz/library-app-assignment-c-cpp/refs/heads/main/README.md"
     },
      {
       "id": 2,
@@ -20,7 +21,8 @@
       "releaseDate": "October 10, 2024",
       "author": "sokchheng",
        "technologies": ["React", "Node.js", "Tailwindcss", "Reduxjs/toolkit"],
-      "link_url": "https://sokchheng.site/"
+      "link_url": "https://sokchheng.site/",
+       "readme_url": ""
     }
   ]
 }
