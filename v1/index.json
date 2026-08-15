@@ -1,4 +1,10 @@
 {
   "folders": [],
-  "files": ["data.json", "cert.json"]
+  "files": [
+    "data.json", 
+    "cert.json",
+    "projectDetails.json",
+    "projects.json",
+    "members.json"
+  ]
 }
