@@ -1,24 +1,13 @@
 {
-  "data": [
-    {
-      "id": 1,
-      "img": "https://hackr.io/blog/cpp-projects/thumbnail/large",
-      "title": "Library Management System, C++, OOP",
-      "description": "school projects assignment",
-      "releaseDate": "October 16, 2023",
-      "author": "team3",
-      "technologies": ["CPP", "C", "CMAKE"],
-      "link_url": "https://github.com/chhengz/library-app-assignment-c-cpp"
-    },
-    {
-      "id": 2,
-      "img": "https://s3.amazonaws.com/angularminds.com/new-blog-images/7-top-reactjs-features-which-makes-it-best-for-development.jpg",
-      "title": "My Personal Website",
-      "description": "a partfolio website",
-      "releaseDate": "October 10, 2024",
-      "author": "sokchheng",
-      "technologies": ["React", "Node.js", "Tailwindcss", "Reduxjs/toolkit"],
-      "link_url": "https://sokchheng.site/"
-    }
+  "updatedAt": "2026-11-06T05:33:19.491Z",
+  "projects": [
+    { "name": "MoffyStore", "featured": true },
+    { "name": "Bon-Om-Touk", "featured": true },
+    { "name": "Mood-Blog", "featured": true },
+    { "name": "Room-Rental-Management-System", "featured": true },
+    { "name": "BSSM", "featured": false },
+    { "name": "LMS", "featured": false },
+    { "name": "elextroshop-app", "featured": false },
+    { "name": "elextron-ecommerce-api", "featured": false }
   ]
 }
