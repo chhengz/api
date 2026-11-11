@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T05:33:19.491Z",
+  "updatedAt": "2026-11-11T04:56:26.239Z",
   "projects": [
     { "name": "MoffyStore", "featured": true },
     { "name": "Bon-Om-Touk", "featured": true },
@@ -7,6 +7,8 @@
     { "name": "Room-Rental-Management-System", "featured": true },
     { "name": "BSSM", "featured": false },
     { "name": "LMS", "featured": false },
+    { "name": "mediaxpro", "featured": false },
+    { "name": "mediaxpro-api", "featured": false },
     { "name": "elextroshop-app", "featured": false },
     { "name": "elextron-ecommerce-api", "featured": false }
   ]
